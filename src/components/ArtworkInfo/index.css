@@ -1,0 +1,84 @@
+* {
+  text-decoration: none;
+}
+.container {
+  min-height: 648px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.wrapper {
+  padding-top: 100px;
+  min-width: 65vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+}
+.card1
+{
+  padding: 20px;
+  width: 30vw;
+  height: 27vw;
+}
+.stock
+{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.card2
+{
+  margin-top: 20px;
+  width: 22vw;
+  height: 27vw;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: auto;
+  align-content: center;
+}
+.artist
+{
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+.name
+{
+  font-size:40px;
+  padding-bottom:20px ;
+}
+.description
+{
+  font-size: 20px;
+  padding-top:20px ;
+}
+.amt
+{
+  font-size: 30px;
+}
+.taxes
+{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.size
+{
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+
+  }
+  .card1
+  {
+    width: 80vw;
+    height: 72vw;
+  }
+  .card2
+  {
+    width: 80vw;
+    height: 72vw;
+  }
+}
